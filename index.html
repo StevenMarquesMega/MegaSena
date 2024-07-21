@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Sequências de Números</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Analisador de Sequências de Números</h1>
+        <form id="numberForm">
+            <label for="numberInput">Digite a sequência de números (separados por vírgula ou espaços):</label>
+            <textarea id="numberInput" rows="4" placeholder="Ex: 1,2,3,4,5,1,2,3 ou 1 2 3 4 5 1 2 3"></textarea>
+            
+            <button type="button" onclick="analyzeNumbers()">Analisar</button>
+            <button type="button" onclick="clearInputs()">Limpar</button>
+        </form>
+        
+        <div id="result"></div>
+    </div>
+    <footer>
+        <p>Desenvolvido por Steven Marques</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
